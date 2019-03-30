@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+float valorCompra;
+int main(){
+cout<<"entre com o valor total da compra";
+cin>>valorCompra;
+if (valorCompra<60)
+   {      
+               cout<<"Pagamento à vista";      
+    } 
+     else if (valorCompra>=60)      
+                  {
+                 
+                     if (valorCompra<100)          
+                         {   
+           cout<<"parcela em 2x";          
+                          } 
+                }
+                    else 
+                            {              
+                                cout<<" parcela em 3x";         
+                            }
+}
